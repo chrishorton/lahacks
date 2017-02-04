@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import AWSCore
+import AWSDynamoDB
 
 class ViewController: UIViewController {
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		// Do any additional setup after loading the view, typically from a nib.
+		print("hello")
+		Services.authenticate()
 	}
 
 	override func didReceiveMemoryWarning() {

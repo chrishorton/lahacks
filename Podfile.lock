@@ -2,14 +2,22 @@ PODS:
   - AWSCore (2.5.0)
   - AWSDynamoDB (2.5.0):
     - AWSCore (= 2.5.0)
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
 
 DEPENDENCIES:
   - AWSDynamoDB
+  - Bolts
 
 SPEC CHECKSUMS:
   AWSCore: e9839d27ceaa2db75934a9c418630ce63c23e347
   AWSDynamoDB: 81b3523f113dacf53c071965662b7056ad866709
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
 
-PODFILE CHECKSUM: e8176f5917d3fc1671cb0b56f1307cedd9a903ca
+PODFILE CHECKSUM: 756602f5bd7f48b051180a9d25a4d925063d5905
 
 COCOAPODS: 1.1.1

@@ -14,6 +14,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Bolts.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-BudgetPool.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,17 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>344434FE8F7B8E7E5B2B3AD039DD005C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>44CAD6CE523055ED339E87154473A254</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>5ACFCBB5C36270A9DF9A2D2D11708867</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>764BF5F8A7793010994AF3D12E8FB7BF</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>CF66AB945126C1CE7BE451C8B0A804F0</key>
 		<dict>
 			<key>primary</key>
 			<true/>

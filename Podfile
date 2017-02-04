@@ -7,4 +7,5 @@ target 'BudgetPool' do
 
   # Pods for BudgetPool
   pod 'AWSDynamoDB'
+  pod 'Bolts'
 end
