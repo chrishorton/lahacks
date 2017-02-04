@@ -6,6 +6,6 @@ target 'BudgetPool' do
   use_frameworks!
 
   # Pods for BudgetPool
-  pod 'AWSDynamoDB'
-  pod 'Bolts'
+  pod 'Firebase/Core'
+  pod 'Firebase/Database'
 end

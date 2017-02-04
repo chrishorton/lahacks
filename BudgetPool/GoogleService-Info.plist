@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>323350596547-46d3g3h7kqg128mbdlo047lup5u75d2f.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.323350596547-46d3g3h7kqg128mbdlo047lup5u75d2f</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCkANuuiKmdY_cIkojvZ9V-1V_5y6OC4GQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>323350596547</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.DreamTeam.BudgetPool</string>
+	<key>PROJECT_ID</key>
+	<string>budget-pool</string>
+	<key>STORAGE_BUCKET</key>
+	<string>budget-pool.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:323350596547:ios:1e6b770e68633be7</string>
+	<key>DATABASE_URL</key>
+	<string>https://budget-pool.firebaseio.com</string>
+</dict>
+</plist>

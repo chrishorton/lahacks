@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0FE04D051E46898D00D8A115 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE04D041E46898D00D8A115 /* Services.swift */; };
+		0FE04D071E46927100D8A115 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0FE04D061E46927100D8A115 /* GoogleService-Info.plist */; };
 		0FF441EA1E467066007CB38F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF441E91E467066007CB38F /* AppDelegate.swift */; };
 		0FF441EC1E467066007CB38F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF441EB1E467066007CB38F /* ViewController.swift */; };
 		0FF441EF1E467066007CB38F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FF441ED1E467066007CB38F /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		0FE04D041E46898D00D8A115 /* Services.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		0FE04D061E46927100D8A115 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0FF441E61E467066007CB38F /* BudgetPool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BudgetPool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FF441E91E467066007CB38F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FF441EB1E467066007CB38F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				0FF441F01E467066007CB38F /* Assets.xcassets */,
 				0FF441F21E467066007CB38F /* LaunchScreen.storyboard */,
 				0FF441F51E467066007CB38F /* Info.plist */,
+				0FE04D061E46927100D8A115 /* GoogleService-Info.plist */,
 				0FE04D041E46898D00D8A115 /* Services.swift */,
 			);
 			path = BudgetPool;
@@ -155,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FF441F41E467066007CB38F /* LaunchScreen.storyboard in Resources */,
+				0FE04D071E46927100D8A115 /* GoogleService-Info.plist in Resources */,
 				0FF441F11E467066007CB38F /* Assets.xcassets in Resources */,
 				0FF441EF1E467066007CB38F /* Main.storyboard in Resources */,
 			);

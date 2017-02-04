@@ -7,15 +7,17 @@
 //
 
 import UIKit
-import AWSCore
-import AWSDynamoDB
+import Firebase
+import FirebaseDatabase
 
 class ViewController: UIViewController {
-
+	var ref: FIRDatabaseReference!
+	
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		print("hello")
-		Services.authenticate()
+	
+		ref = FIRDatabase.database().reference()
+		self.ref.child("order").mut
 	}
 
 	override func didReceiveMemoryWarning() {
