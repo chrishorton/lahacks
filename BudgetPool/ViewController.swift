@@ -14,7 +14,11 @@ class ViewController: UIViewController {
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
+		
 		Services.createPool(uuid: UUID().uuidString)
+		Services.createUser(email: "supp", password: "jksf")
+		
+		print(Services.loginUser(email: "supp", password: "jksf"))
 	}
 
 	override func didReceiveMemoryWarning() {
