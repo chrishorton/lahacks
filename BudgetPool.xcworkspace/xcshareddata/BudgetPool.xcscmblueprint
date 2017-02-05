@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1917BBD1184BAA21AC3381B06019AA8C22DB2389",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4FD480C6E972097FD6784415CC14ADAC86DB038E" : 9223372036854775807,
+    "1917BBD1184BAA21AC3381B06019AA8C22DB2389" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "ACF71728-C167-4627-B076-593EBB14D775",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4FD480C6E972097FD6784415CC14ADAC86DB038E" : "wavelet-test\/",
+    "1917BBD1184BAA21AC3381B06019AA8C22DB2389" : "BudgetPool\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "BudgetPool",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "BudgetPool.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:chrishorton\/lahacks.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1917BBD1184BAA21AC3381B06019AA8C22DB2389"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "code.wavelethealth.net:ios\/ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4FD480C6E972097FD6784415CC14ADAC86DB038E"
+    }
+  ]
+}

@@ -11,13 +11,67 @@
 		0FE04D071E46927100D8A115 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0FE04D061E46927100D8A115 /* GoogleService-Info.plist */; };
 		0FE04D091E469E7300D8A115 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE04D081E469E7300D8A115 /* Globals.swift */; };
 		0FE04D0B1E46EDF900D8A115 /* Pool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE04D0A1E46EDF900D8A115 /* Pool.swift */; };
+		0FE04D3B1E47076300D8A115 /* TradeGothicLTStd-Bd2.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0FE04D0C1E47076300D8A115 /* TradeGothicLTStd-Bd2.otf */; };
+		0FE04D3C1E47076300D8A115 /* TradeGothicLTStd-Bd2Obl.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0FE04D0D1E47076300D8A115 /* TradeGothicLTStd-Bd2Obl.otf */; };
+		0FE04D3D1E47076300D8A115 /* TradeGothicLTStd-BdCn20.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0FE04D0E1E47076300D8A115 /* TradeGothicLTStd-BdCn20.otf */; };
+		0FE04D3E1E47076300D8A115 /* TradeGothicLTStd-BdCn20Obl.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0FE04D0F1E47076300D8A115 /* TradeGothicLTStd-BdCn20Obl.otf */; };
+		0FE04D3F1E47076300D8A115 /* TradeGothicLTStd-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0FE04D101E47076300D8A115 /* TradeGothicLTStd-Bold.otf */; };
+		0FE04D401E47076300D8A115 /* TradeGothicLTStd-BoldExt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0FE04D111E47076300D8A115 /* TradeGothicLTStd-BoldExt.otf */; };
+		0FE04D411E47076300D8A115 /* TradeGothicLTStd-BoldObl.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0FE04D121E47076300D8A115 /* TradeGothicLTStd-BoldObl.otf */; };
+		0FE04D421E47076300D8A115 /* TradeGothicLTStd-Cn18.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0FE04D131E47076300D8A115 /* TradeGothicLTStd-Cn18.otf */; };
+		0FE04D431E47076300D8A115 /* TradeGothicLTStd-Cn18Obl.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0FE04D141E47076300D8A115 /* TradeGothicLTStd-Cn18Obl.otf */; };
+		0FE04D441E47076300D8A115 /* TradeGothicLTStd-Extended.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0FE04D151E47076300D8A115 /* TradeGothicLTStd-Extended.otf */; };
+		0FE04D451E47076300D8A115 /* TradeGothicLTStd-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0FE04D161E47076300D8A115 /* TradeGothicLTStd-Light.otf */; };
+		0FE04D461E47076300D8A115 /* TradeGothicLTStd-LightObl.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0FE04D171E47076300D8A115 /* TradeGothicLTStd-LightObl.otf */; };
+		0FE04D471E47076300D8A115 /* TradeGothicLTStd-Obl.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0FE04D181E47076300D8A115 /* TradeGothicLTStd-Obl.otf */; };
+		0FE04D481E47076300D8A115 /* TradeGothicLTStd.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0FE04D191E47076300D8A115 /* TradeGothicLTStd.otf */; };
+		0FE04D491E47076300D8A115 /* TiemposHeadline-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0FE04D1B1E47076300D8A115 /* TiemposHeadline-Black.otf */; };
+		0FE04D4A1E47076300D8A115 /* TiemposHeadline-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0FE04D1C1E47076300D8A115 /* TiemposHeadline-BlackItalic.otf */; };
+		0FE04D4B1E47076300D8A115 /* TiemposHeadline-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0FE04D1D1E47076300D8A115 /* TiemposHeadline-Bold.otf */; };
+		0FE04D4C1E47076300D8A115 /* TiemposHeadline-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0FE04D1E1E47076300D8A115 /* TiemposHeadline-BoldItalic.otf */; };
+		0FE04D4D1E47076300D8A115 /* TiemposHeadline-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0FE04D1F1E47076300D8A115 /* TiemposHeadline-Light.otf */; };
+		0FE04D4E1E47076300D8A115 /* TiemposHeadline-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0FE04D201E47076300D8A115 /* TiemposHeadline-LightItalic.otf */; };
+		0FE04D4F1E47076300D8A115 /* TiemposHeadline-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0FE04D211E47076300D8A115 /* TiemposHeadline-Medium.otf */; };
+		0FE04D501E47076300D8A115 /* TiemposHeadline-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0FE04D221E47076300D8A115 /* TiemposHeadline-MediumItalic.otf */; };
+		0FE04D511E47076300D8A115 /* TiemposHeadline-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0FE04D231E47076300D8A115 /* TiemposHeadline-Regular.otf */; };
+		0FE04D521E47076300D8A115 /* TiemposHeadline-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0FE04D241E47076300D8A115 /* TiemposHeadline-RegularItalic.otf */; };
+		0FE04D531E47076300D8A115 /* TiemposHeadline-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0FE04D251E47076300D8A115 /* TiemposHeadline-Semibold.otf */; };
+		0FE04D541E47076300D8A115 /* TiemposHeadline-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0FE04D261E47076300D8A115 /* TiemposHeadline-SemiboldItalic.otf */; };
+		0FE04D551E47076300D8A115 /* Graphik-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0FE04D281E47076300D8A115 /* Graphik-Black.otf */; };
+		0FE04D561E47076300D8A115 /* Graphik-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0FE04D291E47076300D8A115 /* Graphik-BlackItalic.otf */; };
+		0FE04D571E47076300D8A115 /* Graphik-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0FE04D2A1E47076300D8A115 /* Graphik-Bold.otf */; };
+		0FE04D581E47076300D8A115 /* Graphik-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0FE04D2B1E47076300D8A115 /* Graphik-BoldItalic.otf */; };
+		0FE04D591E47076300D8A115 /* Graphik-Extralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0FE04D2C1E47076300D8A115 /* Graphik-Extralight.otf */; };
+		0FE04D5A1E47076300D8A115 /* Graphik-ExtralightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0FE04D2D1E47076300D8A115 /* Graphik-ExtralightItalic.otf */; };
+		0FE04D5B1E47076300D8A115 /* Graphik-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0FE04D2E1E47076300D8A115 /* Graphik-Light.otf */; };
+		0FE04D5C1E47076300D8A115 /* Graphik-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0FE04D2F1E47076300D8A115 /* Graphik-LightItalic.otf */; };
+		0FE04D5D1E47076300D8A115 /* Graphik-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0FE04D301E47076300D8A115 /* Graphik-Medium.otf */; };
+		0FE04D5E1E47076300D8A115 /* Graphik-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0FE04D311E47076300D8A115 /* Graphik-MediumItalic.otf */; };
+		0FE04D5F1E47076300D8A115 /* Graphik-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0FE04D321E47076300D8A115 /* Graphik-Regular.otf */; };
+		0FE04D601E47076300D8A115 /* Graphik-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0FE04D331E47076300D8A115 /* Graphik-RegularItalic.otf */; };
+		0FE04D611E47076300D8A115 /* Graphik-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0FE04D341E47076300D8A115 /* Graphik-Semibold.otf */; };
+		0FE04D621E47076300D8A115 /* Graphik-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0FE04D351E47076300D8A115 /* Graphik-SemiboldItalic.otf */; };
+		0FE04D631E47076300D8A115 /* Graphik-Super.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0FE04D361E47076300D8A115 /* Graphik-Super.otf */; };
+		0FE04D641E47076300D8A115 /* Graphik-SuperItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0FE04D371E47076300D8A115 /* Graphik-SuperItalic.otf */; };
+		0FE04D651E47076300D8A115 /* Graphik-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0FE04D381E47076300D8A115 /* Graphik-Thin.otf */; };
+		0FE04D661E47076300D8A115 /* Graphik-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0FE04D391E47076300D8A115 /* Graphik-ThinItalic.otf */; };
+		0FE04D681E47086A00D8A115 /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE04D671E47086A00D8A115 /* ViewControllerExtension.swift */; };
+		0FE04D6A1E4709EE00D8A115 /* bpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE04D691E4709EE00D8A115 /* bpButton.swift */; };
+		0FE04D6C1E470C8800D8A115 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE04D6B1E470C8800D8A115 /* RegistrationViewController.swift */; };
+		0FE04D6F1E470D2900D8A115 /* RegistrationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE04D6D1E470D2900D8A115 /* RegistrationCell.swift */; };
+		0FE04D701E470D2900D8A115 /* RegistrationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FE04D6E1E470D2900D8A115 /* RegistrationCell.xib */; };
+		0FE04D721E471DCF00D8A115 /* YourPoolsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE04D711E471DCF00D8A115 /* YourPoolsViewController.swift */; };
+		0FE04D751E471EC600D8A115 /* PoolCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE04D731E471EC600D8A115 /* PoolCell.swift */; };
+		0FE04D761E471EC600D8A115 /* PoolCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FE04D741E471EC600D8A115 /* PoolCell.xib */; };
+		0FE04D791E4720DF00D8A115 /* CreatePoolCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE04D771E4720DF00D8A115 /* CreatePoolCellTableViewCell.swift */; };
+		0FE04D7A1E4720DF00D8A115 /* CreatePoolCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FE04D781E4720DF00D8A115 /* CreatePoolCellTableViewCell.xib */; };
+		0FE04D7C1E47243B00D8A115 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE04D7B1E47243B00D8A115 /* CreateViewController.swift */; };
 		0FF441EA1E467066007CB38F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF441E91E467066007CB38F /* AppDelegate.swift */; };
 		0FF441EC1E467066007CB38F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF441EB1E467066007CB38F /* ViewController.swift */; };
 		0FF441EF1E467066007CB38F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FF441ED1E467066007CB38F /* Main.storyboard */; };
 		0FF441F11E467066007CB38F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FF441F01E467066007CB38F /* Assets.xcassets */; };
 		0FF441F41E467066007CB38F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FF441F21E467066007CB38F /* LaunchScreen.storyboard */; };
 		48E6E30036AC824807801263 /* Pods_BudgetPool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B600F3BFD9ACFE8A10603F12 /* Pods_BudgetPool.framework */; };
-		83F82F8D1E46F35B00A2BAD5 /* LoginSignupTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F82F8C1E46F35B00A2BAD5 /* LoginSignupTextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +79,61 @@
 		0FE04D061E46927100D8A115 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0FE04D081E469E7300D8A115 /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
 		0FE04D0A1E46EDF900D8A115 /* Pool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pool.swift; sourceTree = "<group>"; };
+		0FE04D0C1E47076300D8A115 /* TradeGothicLTStd-Bd2.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TradeGothicLTStd-Bd2.otf"; sourceTree = "<group>"; };
+		0FE04D0D1E47076300D8A115 /* TradeGothicLTStd-Bd2Obl.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TradeGothicLTStd-Bd2Obl.otf"; sourceTree = "<group>"; };
+		0FE04D0E1E47076300D8A115 /* TradeGothicLTStd-BdCn20.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TradeGothicLTStd-BdCn20.otf"; sourceTree = "<group>"; };
+		0FE04D0F1E47076300D8A115 /* TradeGothicLTStd-BdCn20Obl.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TradeGothicLTStd-BdCn20Obl.otf"; sourceTree = "<group>"; };
+		0FE04D101E47076300D8A115 /* TradeGothicLTStd-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TradeGothicLTStd-Bold.otf"; sourceTree = "<group>"; };
+		0FE04D111E47076300D8A115 /* TradeGothicLTStd-BoldExt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TradeGothicLTStd-BoldExt.otf"; sourceTree = "<group>"; };
+		0FE04D121E47076300D8A115 /* TradeGothicLTStd-BoldObl.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TradeGothicLTStd-BoldObl.otf"; sourceTree = "<group>"; };
+		0FE04D131E47076300D8A115 /* TradeGothicLTStd-Cn18.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TradeGothicLTStd-Cn18.otf"; sourceTree = "<group>"; };
+		0FE04D141E47076300D8A115 /* TradeGothicLTStd-Cn18Obl.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TradeGothicLTStd-Cn18Obl.otf"; sourceTree = "<group>"; };
+		0FE04D151E47076300D8A115 /* TradeGothicLTStd-Extended.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TradeGothicLTStd-Extended.otf"; sourceTree = "<group>"; };
+		0FE04D161E47076300D8A115 /* TradeGothicLTStd-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TradeGothicLTStd-Light.otf"; sourceTree = "<group>"; };
+		0FE04D171E47076300D8A115 /* TradeGothicLTStd-LightObl.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TradeGothicLTStd-LightObl.otf"; sourceTree = "<group>"; };
+		0FE04D181E47076300D8A115 /* TradeGothicLTStd-Obl.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TradeGothicLTStd-Obl.otf"; sourceTree = "<group>"; };
+		0FE04D191E47076300D8A115 /* TradeGothicLTStd.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TradeGothicLTStd.otf; sourceTree = "<group>"; };
+		0FE04D1B1E47076300D8A115 /* TiemposHeadline-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TiemposHeadline-Black.otf"; sourceTree = "<group>"; };
+		0FE04D1C1E47076300D8A115 /* TiemposHeadline-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TiemposHeadline-BlackItalic.otf"; sourceTree = "<group>"; };
+		0FE04D1D1E47076300D8A115 /* TiemposHeadline-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TiemposHeadline-Bold.otf"; sourceTree = "<group>"; };
+		0FE04D1E1E47076300D8A115 /* TiemposHeadline-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TiemposHeadline-BoldItalic.otf"; sourceTree = "<group>"; };
+		0FE04D1F1E47076300D8A115 /* TiemposHeadline-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TiemposHeadline-Light.otf"; sourceTree = "<group>"; };
+		0FE04D201E47076300D8A115 /* TiemposHeadline-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TiemposHeadline-LightItalic.otf"; sourceTree = "<group>"; };
+		0FE04D211E47076300D8A115 /* TiemposHeadline-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TiemposHeadline-Medium.otf"; sourceTree = "<group>"; };
+		0FE04D221E47076300D8A115 /* TiemposHeadline-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TiemposHeadline-MediumItalic.otf"; sourceTree = "<group>"; };
+		0FE04D231E47076300D8A115 /* TiemposHeadline-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TiemposHeadline-Regular.otf"; sourceTree = "<group>"; };
+		0FE04D241E47076300D8A115 /* TiemposHeadline-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TiemposHeadline-RegularItalic.otf"; sourceTree = "<group>"; };
+		0FE04D251E47076300D8A115 /* TiemposHeadline-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TiemposHeadline-Semibold.otf"; sourceTree = "<group>"; };
+		0FE04D261E47076300D8A115 /* TiemposHeadline-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TiemposHeadline-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		0FE04D281E47076300D8A115 /* Graphik-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Graphik-Black.otf"; sourceTree = "<group>"; };
+		0FE04D291E47076300D8A115 /* Graphik-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Graphik-BlackItalic.otf"; sourceTree = "<group>"; };
+		0FE04D2A1E47076300D8A115 /* Graphik-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Graphik-Bold.otf"; sourceTree = "<group>"; };
+		0FE04D2B1E47076300D8A115 /* Graphik-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Graphik-BoldItalic.otf"; sourceTree = "<group>"; };
+		0FE04D2C1E47076300D8A115 /* Graphik-Extralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Graphik-Extralight.otf"; sourceTree = "<group>"; };
+		0FE04D2D1E47076300D8A115 /* Graphik-ExtralightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Graphik-ExtralightItalic.otf"; sourceTree = "<group>"; };
+		0FE04D2E1E47076300D8A115 /* Graphik-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Graphik-Light.otf"; sourceTree = "<group>"; };
+		0FE04D2F1E47076300D8A115 /* Graphik-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Graphik-LightItalic.otf"; sourceTree = "<group>"; };
+		0FE04D301E47076300D8A115 /* Graphik-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Graphik-Medium.otf"; sourceTree = "<group>"; };
+		0FE04D311E47076300D8A115 /* Graphik-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Graphik-MediumItalic.otf"; sourceTree = "<group>"; };
+		0FE04D321E47076300D8A115 /* Graphik-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Graphik-Regular.otf"; sourceTree = "<group>"; };
+		0FE04D331E47076300D8A115 /* Graphik-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Graphik-RegularItalic.otf"; sourceTree = "<group>"; };
+		0FE04D341E47076300D8A115 /* Graphik-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Graphik-Semibold.otf"; sourceTree = "<group>"; };
+		0FE04D351E47076300D8A115 /* Graphik-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Graphik-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		0FE04D361E47076300D8A115 /* Graphik-Super.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Graphik-Super.otf"; sourceTree = "<group>"; };
+		0FE04D371E47076300D8A115 /* Graphik-SuperItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Graphik-SuperItalic.otf"; sourceTree = "<group>"; };
+		0FE04D381E47076300D8A115 /* Graphik-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Graphik-Thin.otf"; sourceTree = "<group>"; };
+		0FE04D391E47076300D8A115 /* Graphik-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Graphik-ThinItalic.otf"; sourceTree = "<group>"; };
+		0FE04D671E47086A00D8A115 /* ViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
+		0FE04D691E4709EE00D8A115 /* bpButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bpButton.swift; sourceTree = "<group>"; };
+		0FE04D6B1E470C8800D8A115 /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		0FE04D6D1E470D2900D8A115 /* RegistrationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationCell.swift; sourceTree = "<group>"; };
+		0FE04D6E1E470D2900D8A115 /* RegistrationCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegistrationCell.xib; sourceTree = "<group>"; };
+		0FE04D711E471DCF00D8A115 /* YourPoolsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YourPoolsViewController.swift; sourceTree = "<group>"; };
+		0FE04D731E471EC600D8A115 /* PoolCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoolCell.swift; sourceTree = "<group>"; };
+		0FE04D741E471EC600D8A115 /* PoolCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PoolCell.xib; sourceTree = "<group>"; };
+		0FE04D771E4720DF00D8A115 /* CreatePoolCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePoolCellTableViewCell.swift; sourceTree = "<group>"; };
+		0FE04D781E4720DF00D8A115 /* CreatePoolCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreatePoolCellTableViewCell.xib; sourceTree = "<group>"; };
+		0FE04D7B1E47243B00D8A115 /* CreateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
 		0FF441E61E467066007CB38F /* BudgetPool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BudgetPool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FF441E91E467066007CB38F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FF441EB1E467066007CB38F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -33,7 +142,6 @@
 		0FF441F31E467066007CB38F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0FF441F51E467066007CB38F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55F9B92C694B62209BBC6A1D /* Pods-BudgetPool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BudgetPool.release.xcconfig"; path = "Pods/Target Support Files/Pods-BudgetPool/Pods-BudgetPool.release.xcconfig"; sourceTree = "<group>"; };
-		83F82F8C1E46F35B00A2BAD5 /* LoginSignupTextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginSignupTextViewController.swift; sourceTree = "<group>"; };
 		9045E2CE72708A390F84DEC0 /* Pods-BudgetPool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BudgetPool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BudgetPool/Pods-BudgetPool.debug.xcconfig"; sourceTree = "<group>"; };
 		B600F3BFD9ACFE8A10603F12 /* Pods_BudgetPool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BudgetPool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -50,6 +158,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0FE04D1A1E47076300D8A115 /* Trade Gothic LT Std */ = {
+			isa = PBXGroup;
+			children = (
+				0FE04D0C1E47076300D8A115 /* TradeGothicLTStd-Bd2.otf */,
+				0FE04D0D1E47076300D8A115 /* TradeGothicLTStd-Bd2Obl.otf */,
+				0FE04D0E1E47076300D8A115 /* TradeGothicLTStd-BdCn20.otf */,
+				0FE04D0F1E47076300D8A115 /* TradeGothicLTStd-BdCn20Obl.otf */,
+				0FE04D101E47076300D8A115 /* TradeGothicLTStd-Bold.otf */,
+				0FE04D111E47076300D8A115 /* TradeGothicLTStd-BoldExt.otf */,
+				0FE04D121E47076300D8A115 /* TradeGothicLTStd-BoldObl.otf */,
+				0FE04D131E47076300D8A115 /* TradeGothicLTStd-Cn18.otf */,
+				0FE04D141E47076300D8A115 /* TradeGothicLTStd-Cn18Obl.otf */,
+				0FE04D151E47076300D8A115 /* TradeGothicLTStd-Extended.otf */,
+				0FE04D161E47076300D8A115 /* TradeGothicLTStd-Light.otf */,
+				0FE04D171E47076300D8A115 /* TradeGothicLTStd-LightObl.otf */,
+				0FE04D181E47076300D8A115 /* TradeGothicLTStd-Obl.otf */,
+				0FE04D191E47076300D8A115 /* TradeGothicLTStd.otf */,
+			);
+			name = "Trade Gothic LT Std";
+			path = "../../wavelet-test/Wavelet/Trade Gothic LT Std";
+			sourceTree = "<group>";
+		};
+		0FE04D271E47076300D8A115 /* Tiempos */ = {
+			isa = PBXGroup;
+			children = (
+				0FE04D1B1E47076300D8A115 /* TiemposHeadline-Black.otf */,
+				0FE04D1C1E47076300D8A115 /* TiemposHeadline-BlackItalic.otf */,
+				0FE04D1D1E47076300D8A115 /* TiemposHeadline-Bold.otf */,
+				0FE04D1E1E47076300D8A115 /* TiemposHeadline-BoldItalic.otf */,
+				0FE04D1F1E47076300D8A115 /* TiemposHeadline-Light.otf */,
+				0FE04D201E47076300D8A115 /* TiemposHeadline-LightItalic.otf */,
+				0FE04D211E47076300D8A115 /* TiemposHeadline-Medium.otf */,
+				0FE04D221E47076300D8A115 /* TiemposHeadline-MediumItalic.otf */,
+				0FE04D231E47076300D8A115 /* TiemposHeadline-Regular.otf */,
+				0FE04D241E47076300D8A115 /* TiemposHeadline-RegularItalic.otf */,
+				0FE04D251E47076300D8A115 /* TiemposHeadline-Semibold.otf */,
+				0FE04D261E47076300D8A115 /* TiemposHeadline-SemiboldItalic.otf */,
+			);
+			name = Tiempos;
+			path = "../../wavelet-test/Wavelet/Tiempos";
+			sourceTree = "<group>";
+		};
+		0FE04D3A1E47076300D8A115 /* Graphik */ = {
+			isa = PBXGroup;
+			children = (
+				0FE04D281E47076300D8A115 /* Graphik-Black.otf */,
+				0FE04D291E47076300D8A115 /* Graphik-BlackItalic.otf */,
+				0FE04D2A1E47076300D8A115 /* Graphik-Bold.otf */,
+				0FE04D2B1E47076300D8A115 /* Graphik-BoldItalic.otf */,
+				0FE04D2C1E47076300D8A115 /* Graphik-Extralight.otf */,
+				0FE04D2D1E47076300D8A115 /* Graphik-ExtralightItalic.otf */,
+				0FE04D2E1E47076300D8A115 /* Graphik-Light.otf */,
+				0FE04D2F1E47076300D8A115 /* Graphik-LightItalic.otf */,
+				0FE04D301E47076300D8A115 /* Graphik-Medium.otf */,
+				0FE04D311E47076300D8A115 /* Graphik-MediumItalic.otf */,
+				0FE04D321E47076300D8A115 /* Graphik-Regular.otf */,
+				0FE04D331E47076300D8A115 /* Graphik-RegularItalic.otf */,
+				0FE04D341E47076300D8A115 /* Graphik-Semibold.otf */,
+				0FE04D351E47076300D8A115 /* Graphik-SemiboldItalic.otf */,
+				0FE04D361E47076300D8A115 /* Graphik-Super.otf */,
+				0FE04D371E47076300D8A115 /* Graphik-SuperItalic.otf */,
+				0FE04D381E47076300D8A115 /* Graphik-Thin.otf */,
+				0FE04D391E47076300D8A115 /* Graphik-ThinItalic.otf */,
+			);
+			name = Graphik;
+			path = "../../wavelet-test/Wavelet/Graphik";
+			sourceTree = "<group>";
+		};
 		0FF441DD1E467065007CB38F = {
 			isa = PBXGroup;
 			children = (
@@ -71,17 +247,30 @@
 		0FF441E81E467066007CB38F /* BudgetPool */ = {
 			isa = PBXGroup;
 			children = (
-				83F82F8C1E46F35B00A2BAD5 /* LoginSignupTextViewController.swift */,
+				0FE04D691E4709EE00D8A115 /* bpButton.swift */,
+				0FE04D671E47086A00D8A115 /* ViewControllerExtension.swift */,
+				0FF441EB1E467066007CB38F /* ViewController.swift */,
+				0FE04D711E471DCF00D8A115 /* YourPoolsViewController.swift */,
+				0FE04D6B1E470C8800D8A115 /* RegistrationViewController.swift */,
+				0FE04D7B1E47243B00D8A115 /* CreateViewController.swift */,
 				0FF441E91E467066007CB38F /* AppDelegate.swift */,
 				0FE04D081E469E7300D8A115 /* Globals.swift */,
-				0FF441EB1E467066007CB38F /* ViewController.swift */,
 				0FE04D041E46898D00D8A115 /* Services.swift */,
 				0FE04D0A1E46EDF900D8A115 /* Pool.swift */,
+				0FE04D771E4720DF00D8A115 /* CreatePoolCellTableViewCell.swift */,
+				0FE04D781E4720DF00D8A115 /* CreatePoolCellTableViewCell.xib */,
 				0FF441ED1E467066007CB38F /* Main.storyboard */,
+				0FE04D6D1E470D2900D8A115 /* RegistrationCell.swift */,
+				0FE04D6E1E470D2900D8A115 /* RegistrationCell.xib */,
+				0FE04D731E471EC600D8A115 /* PoolCell.swift */,
+				0FE04D741E471EC600D8A115 /* PoolCell.xib */,
 				0FF441F01E467066007CB38F /* Assets.xcassets */,
 				0FF441F21E467066007CB38F /* LaunchScreen.storyboard */,
 				0FF441F51E467066007CB38F /* Info.plist */,
 				0FE04D061E46927100D8A115 /* GoogleService-Info.plist */,
+				0FE04D1A1E47076300D8A115 /* Trade Gothic LT Std */,
+				0FE04D271E47076300D8A115 /* Tiempos */,
+				0FE04D3A1E47076300D8A115 /* Graphik */,
 			);
 			path = BudgetPool;
 			sourceTree = "<group>";
@@ -166,10 +355,57 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FE04D5B1E47076300D8A115 /* Graphik-Light.otf in Resources */,
+				0FE04D7A1E4720DF00D8A115 /* CreatePoolCellTableViewCell.xib in Resources */,
+				0FE04D521E47076300D8A115 /* TiemposHeadline-RegularItalic.otf in Resources */,
+				0FE04D481E47076300D8A115 /* TradeGothicLTStd.otf in Resources */,
+				0FE04D4F1E47076300D8A115 /* TiemposHeadline-Medium.otf in Resources */,
+				0FE04D4A1E47076300D8A115 /* TiemposHeadline-BlackItalic.otf in Resources */,
+				0FE04D651E47076300D8A115 /* Graphik-Thin.otf in Resources */,
 				0FF441F41E467066007CB38F /* LaunchScreen.storyboard in Resources */,
+				0FE04D441E47076300D8A115 /* TradeGothicLTStd-Extended.otf in Resources */,
+				0FE04D5C1E47076300D8A115 /* Graphik-LightItalic.otf in Resources */,
+				0FE04D4E1E47076300D8A115 /* TiemposHeadline-LightItalic.otf in Resources */,
+				0FE04D5E1E47076300D8A115 /* Graphik-MediumItalic.otf in Resources */,
+				0FE04D641E47076300D8A115 /* Graphik-SuperItalic.otf in Resources */,
+				0FE04D3E1E47076300D8A115 /* TradeGothicLTStd-BdCn20Obl.otf in Resources */,
 				0FE04D071E46927100D8A115 /* GoogleService-Info.plist in Resources */,
+				0FE04D3D1E47076300D8A115 /* TradeGothicLTStd-BdCn20.otf in Resources */,
+				0FE04D3B1E47076300D8A115 /* TradeGothicLTStd-Bd2.otf in Resources */,
+				0FE04D451E47076300D8A115 /* TradeGothicLTStd-Light.otf in Resources */,
+				0FE04D701E470D2900D8A115 /* RegistrationCell.xib in Resources */,
+				0FE04D431E47076300D8A115 /* TradeGothicLTStd-Cn18Obl.otf in Resources */,
+				0FE04D471E47076300D8A115 /* TradeGothicLTStd-Obl.otf in Resources */,
 				0FF441F11E467066007CB38F /* Assets.xcassets in Resources */,
+				0FE04D3F1E47076300D8A115 /* TradeGothicLTStd-Bold.otf in Resources */,
+				0FE04D631E47076300D8A115 /* Graphik-Super.otf in Resources */,
+				0FE04D4D1E47076300D8A115 /* TiemposHeadline-Light.otf in Resources */,
+				0FE04D401E47076300D8A115 /* TradeGothicLTStd-BoldExt.otf in Resources */,
+				0FE04D621E47076300D8A115 /* Graphik-SemiboldItalic.otf in Resources */,
+				0FE04D571E47076300D8A115 /* Graphik-Bold.otf in Resources */,
+				0FE04D4C1E47076300D8A115 /* TiemposHeadline-BoldItalic.otf in Resources */,
+				0FE04D591E47076300D8A115 /* Graphik-Extralight.otf in Resources */,
+				0FE04D421E47076300D8A115 /* TradeGothicLTStd-Cn18.otf in Resources */,
+				0FE04D581E47076300D8A115 /* Graphik-BoldItalic.otf in Resources */,
+				0FE04D561E47076300D8A115 /* Graphik-BlackItalic.otf in Resources */,
+				0FE04D5A1E47076300D8A115 /* Graphik-ExtralightItalic.otf in Resources */,
 				0FF441EF1E467066007CB38F /* Main.storyboard in Resources */,
+				0FE04D4B1E47076300D8A115 /* TiemposHeadline-Bold.otf in Resources */,
+				0FE04D761E471EC600D8A115 /* PoolCell.xib in Resources */,
+				0FE04D3C1E47076300D8A115 /* TradeGothicLTStd-Bd2Obl.otf in Resources */,
+				0FE04D501E47076300D8A115 /* TiemposHeadline-MediumItalic.otf in Resources */,
+				0FE04D411E47076300D8A115 /* TradeGothicLTStd-BoldObl.otf in Resources */,
+				0FE04D551E47076300D8A115 /* Graphik-Black.otf in Resources */,
+				0FE04D611E47076300D8A115 /* Graphik-Semibold.otf in Resources */,
+				0FE04D5D1E47076300D8A115 /* Graphik-Medium.otf in Resources */,
+				0FE04D511E47076300D8A115 /* TiemposHeadline-Regular.otf in Resources */,
+				0FE04D661E47076300D8A115 /* Graphik-ThinItalic.otf in Resources */,
+				0FE04D541E47076300D8A115 /* TiemposHeadline-SemiboldItalic.otf in Resources */,
+				0FE04D461E47076300D8A115 /* TradeGothicLTStd-LightObl.otf in Resources */,
+				0FE04D531E47076300D8A115 /* TiemposHeadline-Semibold.otf in Resources */,
+				0FE04D491E47076300D8A115 /* TiemposHeadline-Black.otf in Resources */,
+				0FE04D5F1E47076300D8A115 /* Graphik-Regular.otf in Resources */,
+				0FE04D601E47076300D8A115 /* Graphik-RegularItalic.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,10 +466,17 @@
 			files = (
 				0FE04D091E469E7300D8A115 /* Globals.swift in Sources */,
 				0FF441EC1E467066007CB38F /* ViewController.swift in Sources */,
+				0FE04D6C1E470C8800D8A115 /* RegistrationViewController.swift in Sources */,
+				0FE04D6F1E470D2900D8A115 /* RegistrationCell.swift in Sources */,
+				0FE04D681E47086A00D8A115 /* ViewControllerExtension.swift in Sources */,
 				0FE04D051E46898D00D8A115 /* Services.swift in Sources */,
-				83F82F8D1E46F35B00A2BAD5 /* LoginSignupTextViewController.swift in Sources */,
+				0FE04D751E471EC600D8A115 /* PoolCell.swift in Sources */,
+				0FE04D791E4720DF00D8A115 /* CreatePoolCellTableViewCell.swift in Sources */,
 				0FF441EA1E467066007CB38F /* AppDelegate.swift in Sources */,
+				0FE04D7C1E47243B00D8A115 /* CreateViewController.swift in Sources */,
+				0FE04D721E471DCF00D8A115 /* YourPoolsViewController.swift in Sources */,
 				0FE04D0B1E46EDF900D8A115 /* Pool.swift in Sources */,
+				0FE04D6A1E4709EE00D8A115 /* bpButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

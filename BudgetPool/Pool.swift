@@ -9,11 +9,11 @@
 import Foundation
 
 struct Pool {
-	var id : String
-	var name : String
-	var contribution : Int
-	var intervalInDays : Int
-	var memberIds : [String]
+	var id : String = ""
+	var name : String = ""
+	var contribution : Int = 0
+	var intervalInDays : Int = 0
+	var memberIds : [String] = [String]()
 	
 	init(id: String,
 		name : String,
@@ -25,5 +25,9 @@ struct Pool {
 		self.contribution = contribution
 		self.intervalInDays = intervalInDays
 		self.memberIds = memberIds
+	}
+	
+	init() {
+		
 	}
 }

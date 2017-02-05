@@ -12,54 +12,42 @@ import FirebaseDatabase
 
 class ViewController: UIViewController {
 
+	var isLogin = true
+	
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		Services.delegate = self
 		//Services.createPool(uuid: UUID().uuidString)
-		//Services.createUser(email: "suppboy", password: "jks")
-		Services.fetchPools(userEmail: "joe")
+		//let email = encodeAsFirebaseKey(string: "joe@gmail.com")
+		//Services.createUser(email: email, password: "test")
+		//Services.fetchPools(userEmail: email)
 		//print(Services.loginUser(email: "suppboy", password: "jks"))
+	}
+	
+	func encodeAsFirebaseKey(string : String) -> String {
+		return string.replacingOccurrences(of: ".", with: "%2E")
 	}
 
 	override func didReceiveMemoryWarning() {
 		super.didReceiveMemoryWarning()
 		// Dispose of any resources that can be recreated.
 	}
-    
-    @IBAction func logInButtonAction(_ sender: Any) {
-        performSegue(withIdentifier: "logIn", sender: sender)
-    }
-
-    @IBAction func SignUpButtonAction(_ sender: Any) {
-        performSegue(withIdentifier: "signUp", sender: sender)
-
-    }
-    
-    var loginIdentifierInitial = " "
-    
+	
+	@IBAction func register() {
+		isLogin = false
+		self.performSegue(withIdentifier: "toRegistration", sender: nil)
+	}
+	
+	@IBAction func login() {
+		isLogin = true
+		self.performSegue(withIdentifier: "toRegistration", sender: nil)
+	}
+	
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "signUp" {
-            loginIdentifierInitial = "SignUp"
-            let viewController: LoginSignupTextViewController = segue.destination as! LoginSignupTextViewController
-            viewController.loginIdentifier = loginIdentifierInitial
-        }
-        
-        if segue.identifier == "logIn" {
-            loginIdentifierInitial = "LogIn"
-            let viewController: LoginSignupTextViewController = segue.destination as! LoginSignupTextViewController
-            viewController.loginIdentifier = loginIdentifierInitial
-
-        }
+		if let dest = segue.destination as? RegistrationViewController {
+			dest.isLogin = self.isLogin
+		}
     }
 
 }
 
-extension ViewController : ServicesDelegate {
-	internal func getPoolsCallback(success: Bool, pools: [Pool]) {
-		
-	}
 
-	func loginCallback(success: Bool, message: String) {
-		print("success", success, "message:", message)
-	}
-}
