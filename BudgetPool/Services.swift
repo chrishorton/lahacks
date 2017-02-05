@@ -11,6 +11,8 @@ import Foundation
 
 struct Services {
 	
+	static var delegate : ServicesDelegate?
+	
 	static func createPool(uuid: String) {
 		ref.child(uuid).child("members").setValue(["sup@gmail.com", "bob@gmail.com", "joe@gmail.com"])
 		ref.child(uuid).child("contribution_dollar_amount").setValue(100)
@@ -27,17 +29,30 @@ struct Services {
 		
 	}
 	
-	static func loginUser(email: String, password: String) -> (success: Bool, message: String) {
+	static func loginUser(email: String, password: String) {
 		print(email)
-		let values = ref.child("users").queryEqual(toValue: email)
+		print(password)
+		let values = ref.child("users").queryEqual(toValue: nil, childKey: email)
 		print(values)
 		values.observe(.value, with: { (snapshot) in
 			print(snapshot)
+			if snapshot.hasChildren() {
+				if let dict = snapshot.value as? NSDictionary {
+					let truePassword = dict.value(forKey: email) as! String
+					print(truePassword)
+					if truePassword == password {
+						delegate?.loginCallback(success: true, message: "good job")
+						return
+					}
+				}
+			}
+			delegate?.loginCallback(success: false, message: "Invalid login.")
 		})
-		/*if values.count == 1 {
-			return (true, "Success")
-		}*/
-		
-		return (true, "")
 	}
 }
+
+protocol ServicesDelegate {
+	func loginCallback(success: Bool, message: String)
+}
+
+

@@ -14,9 +14,9 @@ class ViewController: UIViewController {
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		
+		Services.delegate = self
 		Services.createPool(uuid: UUID().uuidString)
-		Services.createUser(email: "supp", password: "jksf")
+		//Services.createUser(email: "supp", password: "jksf")
 		
 		print(Services.loginUser(email: "supp", password: "jksf"))
 	}
@@ -29,3 +29,8 @@ class ViewController: UIViewController {
 
 }
 
+extension ViewController : ServicesDelegate {
+	func loginCallback(success: Bool, message: String) {
+		print("success", success, "message:", message)
+	}
+}
