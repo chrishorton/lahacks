@@ -12,6 +12,7 @@ import Foundation
 struct Services {
 	
 	static var delegate : ServicesDelegate?
+	static let loggedOnKey = "isLoggedOn"
 	
 	static func createPool(uuid: String) {
 		ref.child(uuid).child("members").setValue(["sup@gmail.com", "bob@gmail.com", "joe@gmail.com"])
@@ -29,6 +30,10 @@ struct Services {
 		
 	}
 	
+	static func isLoggedOn() -> Bool {
+		return UserDefaults.standard.bool(forKey: loggedOnKey)
+	}
+	
 	static func loginUser(email: String, password: String) {
 		print(email)
 		print(password)
@@ -42,6 +47,7 @@ struct Services {
 					print(truePassword)
 					if truePassword == password {
 						delegate?.loginCallback(success: true, message: "good job")
+						UserDefaults.standard.set(true, forKey: loggedOnKey)
 						return
 					}
 				}

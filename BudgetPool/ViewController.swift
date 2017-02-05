@@ -15,17 +15,16 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		Services.delegate = self
-		Services.createPool(uuid: UUID().uuidString)
-		//Services.createUser(email: "supp", password: "jksf")
+		//Services.createPool(uuid: UUID().uuidString)
+		Services.createUser(email: "suppboy", password: "jks")
 		
-		print(Services.loginUser(email: "supp", password: "jksf"))
+		print(Services.loginUser(email: "suppboy", password: "jks"))
 	}
 
 	override func didReceiveMemoryWarning() {
 		super.didReceiveMemoryWarning()
 		// Dispose of any resources that can be recreated.
 	}
-
 
 }
 
