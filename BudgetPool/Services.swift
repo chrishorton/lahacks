@@ -42,7 +42,7 @@ struct Services {
 		})
 	}
 	
-	private static func poolsFromPoolIDs(poolIDs: [String]) -> [Pool] {
+	private static func poolsFromPoolIDs(poolIDs: [String]) {
 		gblPools = [Pool]()
 		for id in poolIDs {
 			let values = ref.child("pools").queryEqual(toValue: nil, childKey: id)
@@ -62,7 +62,6 @@ struct Services {
 				}
 			})
 		}
-		return [Pool]()
 	}
 	
 	static func isLoggedOn() -> Bool {
