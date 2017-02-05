@@ -12,7 +12,7 @@ class PoolCell: UICollectionViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+		self.backgroundColor = UIColor.white.withAlphaComponent(0.06)
     }
 
 }

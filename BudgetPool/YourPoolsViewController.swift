@@ -51,7 +51,7 @@ extension YourPoolsViewController : UICollectionViewDelegate, UICollectionViewDa
 	
 	func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
 		let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! PoolCell
-		cell.backgroundColor = UIColor.white
+		
 		return cell
 	}
 	
