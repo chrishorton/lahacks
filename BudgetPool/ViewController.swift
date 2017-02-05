@@ -11,13 +11,10 @@ import Firebase
 import FirebaseDatabase
 
 class ViewController: UIViewController {
-	var ref: FIRDatabaseReference!
-	
+
 	override func viewDidLoad() {
 		super.viewDidLoad()
-	
-		ref = FIRDatabase.database().reference()
-		self.ref.child("order").mut
+		Services.createPool(uuid: UUID().uuidString)
 	}
 
 	override func didReceiveMemoryWarning() {

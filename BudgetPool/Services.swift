@@ -11,8 +11,10 @@ import Foundation
 
 struct Services {
 	
-	static func authenticate() {
-
-
+	static func createPool(uuid: String) {
+		ref.child(uuid).child("members").setValue(["sup@gmail.com", "bob@gmail.com", "joe@gmail.com"])
+		ref.child(uuid).child("contribution_dollar_amount").setValue(100)
+		ref.child(uuid).child("interval_in_days").setValue(7)
+		//ref.child(uuid).child("").setValue("sup")
 	}
 }
