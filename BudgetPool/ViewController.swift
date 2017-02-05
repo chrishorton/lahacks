@@ -25,6 +25,32 @@ class ViewController: UIViewController {
 		super.didReceiveMemoryWarning()
 		// Dispose of any resources that can be recreated.
 	}
+    
+    @IBAction func logInButtonAction(_ sender: Any) {
+        performSegue(withIdentifier: "logIn", sender: sender)
+    }
+
+    @IBAction func SignUpButtonAction(_ sender: Any) {
+        performSegue(withIdentifier: "signUp", sender: sender)
+
+    }
+    
+    var loginIdentifierInitial = " "
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "signUp" {
+            loginIdentifierInitial = "SignUp"
+            let viewController: LoginSignupTextViewController = segue.destination as! LoginSignupTextViewController
+            viewController.loginIdentifier = loginIdentifierInitial
+        }
+        
+        if segue.identifier == "logIn" {
+            loginIdentifierInitial = "LogIn"
+            let viewController: LoginSignupTextViewController = segue.destination as! LoginSignupTextViewController
+            viewController.loginIdentifier = loginIdentifierInitial
+
+        }
+    }
 
 }
 

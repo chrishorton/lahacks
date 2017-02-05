@@ -34,7 +34,8 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Log in"/>
                                 <connections>
-                                    <segue destination="Qer-Ya-fuL" kind="show" id="Isy-FQ-qH8"/>
+                                    <action selector="logInButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ajJ-qa-xF6"/>
+                                    <segue destination="Qer-Ya-fuL" kind="show" identifier="logIn" id="LBg-TX-TPR"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pi0-8i-j6m">
@@ -42,24 +43,22 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Sign Up"/>
                                 <connections>
-                                    <segue destination="Qer-Ya-fuL" kind="show" id="csu-oF-B9C"/>
+                                    <action selector="SignUpButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iv1-R1-XOr"/>
+                                    <segue destination="Qer-Ya-fuL" kind="show" identifier="signUp" id="473-su-Mmi"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <connections>
-                        <outlet property="LoginOrCreateAccountButton" destination="FlY-cd-CT0" id="fZG-K2-p8y"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="117.59999999999999" y="122.78860569715144"/>
         </scene>
-        <!--View Controller-->
+        <!--LogInSignUpText-->
         <scene sceneID="b20-ip-79y">
             <objects>
-                <viewController id="Qer-Ya-fuL" sceneMemberID="viewController">
+                <viewController title="LogInSignUpText" id="Qer-Ya-fuL" customClass="LoginSignupTextViewController" customModule="BudgetPool" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="vaV-hw-3tV"/>
                         <viewControllerLayoutGuide type="bottom" id="lnc-Tw-fXG"/>
@@ -74,14 +73,14 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VU3-xC-8XL">
-                                <rect key="frame" x="115" y="267" width="84" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VU3-xC-8XL">
+                                <rect key="frame" x="115" y="267" width="145" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FlY-cd-CT0">
-                                <rect key="frame" x="136" y="387" width="42" height="30"/>
+                                <rect key="frame" x="125" y="392" width="124" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Log in"/>
                             </button>
@@ -95,13 +94,16 @@
                             <constraint firstItem="ACX-WF-GOm" firstAttribute="centerX" secondItem="47y-ik-xCu" secondAttribute="centerX" id="tvW-rb-mhx"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="MutableTextLabel" destination="FlY-cd-CT0" id="l0v-Vb-WPR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OuS-5K-Uc1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="836" y="133"/>
+            <point key="canvasLocation" x="836" y="122.78860569715144"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="csu-oF-B9C"/>
+        <segue reference="LBg-TX-TPR"/>
     </inferredMetricsTieBreakers>
 </document>

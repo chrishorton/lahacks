@@ -16,6 +16,7 @@
 		0FF441F11E467066007CB38F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FF441F01E467066007CB38F /* Assets.xcassets */; };
 		0FF441F41E467066007CB38F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FF441F21E467066007CB38F /* LaunchScreen.storyboard */; };
 		48E6E30036AC824807801263 /* Pods_BudgetPool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B600F3BFD9ACFE8A10603F12 /* Pods_BudgetPool.framework */; };
+		83F82F8D1E46F35B00A2BAD5 /* LoginSignupTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F82F8C1E46F35B00A2BAD5 /* LoginSignupTextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		0FF441F31E467066007CB38F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0FF441F51E467066007CB38F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55F9B92C694B62209BBC6A1D /* Pods-BudgetPool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BudgetPool.release.xcconfig"; path = "Pods/Target Support Files/Pods-BudgetPool/Pods-BudgetPool.release.xcconfig"; sourceTree = "<group>"; };
+		83F82F8C1E46F35B00A2BAD5 /* LoginSignupTextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginSignupTextViewController.swift; sourceTree = "<group>"; };
 		9045E2CE72708A390F84DEC0 /* Pods-BudgetPool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BudgetPool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BudgetPool/Pods-BudgetPool.debug.xcconfig"; sourceTree = "<group>"; };
 		B600F3BFD9ACFE8A10603F12 /* Pods_BudgetPool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BudgetPool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -67,6 +69,7 @@
 		0FF441E81E467066007CB38F /* BudgetPool */ = {
 			isa = PBXGroup;
 			children = (
+				83F82F8C1E46F35B00A2BAD5 /* LoginSignupTextViewController.swift */,
 				0FF441E91E467066007CB38F /* AppDelegate.swift */,
 				0FE04D081E469E7300D8A115 /* Globals.swift */,
 				0FF441EB1E467066007CB38F /* ViewController.swift */,
@@ -225,6 +228,7 @@
 				0FE04D091E469E7300D8A115 /* Globals.swift in Sources */,
 				0FF441EC1E467066007CB38F /* ViewController.swift in Sources */,
 				0FE04D051E46898D00D8A115 /* Services.swift in Sources */,
+				83F82F8D1E46F35B00A2BAD5 /* LoginSignupTextViewController.swift in Sources */,
 				0FF441EA1E467066007CB38F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
