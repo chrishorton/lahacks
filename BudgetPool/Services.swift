@@ -26,8 +26,43 @@ struct Services {
 		ref.child("users").child(email).setValue(password)
 	}
 	
-	static func getPools(uuid: String) {
-		
+	static func fetchPools(userEmail: String) {
+		print("GETTING POOLS")
+		print("userEmail:", userEmail)
+		let values = ref.child("members").queryEqual(toValue: nil, childKey: userEmail)
+		values.observe(.value, with: { (snapshot) in
+			print(snapshot)
+			if let dict = snapshot.value as? NSDictionary {
+				let poolIDs = dict[userEmail] as! [String]
+				poolsFromPoolIDs(poolIDs: poolIDs)
+			}
+			else {
+				delegate?.getPoolsCallback(success: false, pools: [Pool]())
+			}
+		})
+	}
+	
+	private static func poolsFromPoolIDs(poolIDs: [String]) -> [Pool] {
+		gblPools = [Pool]()
+		for id in poolIDs {
+			let values = ref.child("pools").queryEqual(toValue: nil, childKey: id)
+			values.observe(.value, with: { (snapshot) in
+				print(snapshot)
+				if let dict = snapshot.value as? NSDictionary {
+					let poolDict = dict[id] as! NSDictionary
+					print(poolDict)
+					let name = poolDict["name"] as! String
+					let members = poolDict["members"] as! [String]
+					let intervalInDays = poolDict["interval_in_days"] as! Int
+					let contribution =	poolDict["contribution_dollar_amount"] as! Int
+					let poolStruct = Pool(id: id, name: name, contribution: contribution, intervalInDays: intervalInDays, memberIds: members)
+					print(poolStruct)
+					gblPools.append(poolStruct)
+					delegate?.getPoolsCallback(success: true, pools: gblPools)
+				}
+			})
+		}
+		return [Pool]()
 	}
 	
 	static func isLoggedOn() -> Bool {
@@ -59,6 +94,7 @@ struct Services {
 
 protocol ServicesDelegate {
 	func loginCallback(success: Bool, message: String)
+	func getPoolsCallback(success: Bool, pools : [Pool])
 }
 
 

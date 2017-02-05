@@ -15,4 +15,15 @@ struct Pool {
 	var intervalInDays : Int
 	var memberIds : [String]
 	
+	init(id: String,
+		name : String,
+		contribution : Int,
+		intervalInDays : Int,
+		memberIds: [String]) {
+		self.id = id
+		self.name = name
+		self.contribution = contribution
+		self.intervalInDays = intervalInDays
+		self.memberIds = memberIds
+	}
 }

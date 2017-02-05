@@ -16,9 +16,9 @@ class ViewController: UIViewController {
 		super.viewDidLoad()
 		Services.delegate = self
 		//Services.createPool(uuid: UUID().uuidString)
-		Services.createUser(email: "suppboy", password: "jks")
-		
-		print(Services.loginUser(email: "suppboy", password: "jks"))
+		//Services.createUser(email: "suppboy", password: "jks")
+		Services.fetchPools(userEmail: "joe")
+		//print(Services.loginUser(email: "suppboy", password: "jks"))
 	}
 
 	override func didReceiveMemoryWarning() {
@@ -29,6 +29,10 @@ class ViewController: UIViewController {
 }
 
 extension ViewController : ServicesDelegate {
+	internal func getPoolsCallback(success: Bool, pools: [Pool]) {
+		
+	}
+
 	func loginCallback(success: Bool, message: String) {
 		print("success", success, "message:", message)
 	}
