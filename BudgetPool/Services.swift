@@ -14,10 +14,10 @@ struct Services {
 	static var delegate : ServicesDelegate?
 	static let loggedOnKey = "isLoggedOn"
 	
-	static func createPool(uuid: String) {
-		ref.child(uuid).child("members").setValue(["sup@gmail.com", "bob@gmail.com", "joe@gmail.com"])
-		ref.child(uuid).child("contribution_dollar_amount").setValue(100)
-		ref.child(uuid).child("interval_in_days").setValue(7)
+	static func createPoolOnFB(pool : Pool) {
+		ref.child(pool.id).child("members").setValue(pool.memberIds)
+		ref.child(pool.id).child("contribution_dollar_amount").setValue(pool.contribution)
+		ref.child(pool.id).child("interval_in_days").setValue(pool.intervalInDays)
 		//ref.child(uuid).child("").setValue("sup")
 	}
 	
@@ -26,7 +26,7 @@ struct Services {
 		ref.child("users").child(email).setValue(password)
 	}
 	
-	static func query(uuid: String){
+	static func getPools(uuid: String) {
 		
 	}
 	

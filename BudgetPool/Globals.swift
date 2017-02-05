@@ -11,3 +11,4 @@ import Firebase
 import FirebaseDatabase
 
 var ref: FIRDatabaseReference!
+var gblPools : [Pool]!
